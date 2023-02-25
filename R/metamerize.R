@@ -106,7 +106,7 @@ metamerise <- function(data,
     data$set_change(change)
   }
   if (hasArg("K")) {
-    data$set_k(K)
+    data$set_K(K)
   }
   if (hasArg("perturbation")) {
     data$set_perturbation(perturbation)
